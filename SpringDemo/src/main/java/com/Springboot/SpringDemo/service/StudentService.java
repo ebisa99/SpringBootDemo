@@ -1,7 +1,7 @@
 package com.Springboot.SpringDemo.service;
 
-import com.Springboot.SpringDemo.studentDao.StudentRepository;
-import com.Springboot.SpringDemo.studentDto.StudentDto;
+import com.Springboot.SpringDemo.repository.StudentRepository;
+import com.Springboot.SpringDemo.dto.StudentDto;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
