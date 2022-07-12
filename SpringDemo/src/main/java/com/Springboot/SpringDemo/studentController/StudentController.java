@@ -1,7 +1,7 @@
 package com.Springboot.SpringDemo.studentController;
 
 import com.Springboot.SpringDemo.studentDto.StudentDto;
-import com.Springboot.SpringDemo.studentService.StudentService;
+import com.Springboot.SpringDemo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
