@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS Teacher;
+CREATE TABLE Teacher(
+teacherId VARCHAR(200) PRIMARY KEY,
+teacherName VARCHAR(200),
+description VARCHAR(250)
+);

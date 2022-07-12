@@ -1,4 +1,4 @@
-package com.Springboot.SpringDemo.studentService;
+package com.Springboot.SpringDemo.service;
 
 import com.Springboot.SpringDemo.studentDao.StudentRepository;
 import com.Springboot.SpringDemo.studentDto.StudentDto;
