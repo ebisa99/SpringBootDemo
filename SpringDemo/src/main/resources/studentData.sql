@@ -1,1 +1,1 @@
-INSERT INTO Student (id, studentName, major) VALUES (1, 'Ibsa', 'cs');
+--INSERT INTO Student (id, studentName, major) VALUES (1, 'Ibsa', 'cs');

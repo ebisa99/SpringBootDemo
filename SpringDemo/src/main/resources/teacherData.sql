@@ -1,1 +1,1 @@
-INSERT INTO Teacher (teacherId, teacherName) VALUES (1, 'Ibsa');
+--INSERT INTO Teacher (teacherId, teacherName) VALUES (1, 'Ibsa');

@@ -19,7 +19,7 @@ import java.time.LocalDate;
 public class CourseDto {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String courseId;
+    private Integer courseId;
     private String courseName;
     private String description;
     private LocalDate startDate;
