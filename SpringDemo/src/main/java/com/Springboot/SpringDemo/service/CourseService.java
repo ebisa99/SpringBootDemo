@@ -1,9 +1,8 @@
 package com.Springboot.SpringDemo.service;
 
-import com.Springboot.SpringDemo.studentDao.CourseRepository;
-import com.Springboot.SpringDemo.studentDto.CourseDto;
+import com.Springboot.SpringDemo.dto.CourseDto;
+import com.Springboot.SpringDemo.repository.CourseRepository;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
@@ -23,11 +22,11 @@ public class CourseService {
         return courseRepository.save(courseDto);
     }
 
-    public Optional<CourseDto> getById(String id){
+    public Optional<CourseDto> getById(Integer id){
         return courseRepository.findById(id);
     }
 
-    public void deleteById(String id){
+    public void deleteById(Integer id){
         courseRepository.deleteById(id);
     }
 }
