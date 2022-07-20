@@ -10,7 +10,7 @@
         <module name="SpringDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11">
       <module name="SpringDemo" target="11" />
     </bytecodeTargetLevel>
   </component>
