@@ -28,6 +28,14 @@ public class StudentController {
         return studentService.getAllStudents();
     }
 
+    @GetMapping("/score")
+    public Integer getScore(){
+        return studentService.getScore();
+    }
+    @GetMapping("/scores")
+    public Integer[] getScores(){
+        return studentService.getScores();
+    }
     @PostMapping("/addStudent")
     public StudentDto addStudent(@RequestBody StudentDto studentDto){
         return studentService.addStudent(studentDto);
